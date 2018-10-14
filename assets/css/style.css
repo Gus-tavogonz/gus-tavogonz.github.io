@@ -1,0 +1,367 @@
+/* THIS STYLESHEET TARGETS THE BOOTSTRAP ELEMENTS
+ AND CHANGE THEM TO THE FINAL VISUAL OUTPUT*/   
+ 
+ body{
+    font-family: 'Lato', sans-serif;
+ }
+
+ a:hover{
+     color:lightgrey;
+ }
+
+
+ /*NAV BAR STARTS HERE*/
+ .navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+.branding-orange{
+    color: #ff6900;
+}
+
+.branding-black{
+    color: black;
+}
+.branding-black:hover{
+    color: #ff6900;
+}
+
+.nav-item{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-weight: 20px;
+    
+}
+
+.nav-item:hover{
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px solid;
+    border-bottom-color: #ff6900;
+
+        
+}
+
+ /*NAV BAR ends HERE*/
+
+ /*HERO IMAGE STARTS HERE*/
+.hero-section{
+    background-image: url("../../assets/images/hero-image2.png") ;
+
+}
+
+ 
+ .hero-image{
+    background-image:url("../../assets/images/hero-image1.jpg");
+	background-size: cover;
+	height: 600px;
+	background-color: #ff6900;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+ }
+
+
+ .hero-image p{
+     font-family: Lato;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 150px;
+ }
+ /*HERO IMAGE ENDS HERE*/
+
+
+
+ /*HERO IMAGE FOR ABOUT STARTS HERE*/
+ .hero-section-about{
+    background-image: url("../../assets/images/hero-image2.png") ;
+
+}
+
+ 
+ .hero-image-about{
+    background-image:url("../../assets/images/hero-image1.jpg");
+	background-size: cover;
+	height: 250px;
+	background-color: #ff6900;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+ }
+
+
+ .hero-image-about p{
+     font-family: Lato;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 100px;
+ }
+ /*HERO IMAGE ENDS HERE*/
+
+
+ /*THREE COLUMNS STARTS HERE*/
+ .col-md-4 a{
+    text-decoration: none;
+}
+
+.three-columns{
+    text-align: center;
+    
+}
+
+.col-md-4 h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle{
+    text-decoration: none;
+    color: #ff6900;
+    border: none;
+    text-align: center;
+ }
+ .col-md-4 p{
+    text-align: justify;
+}
+ /*THREE COLUMNS ENDS HERE*/
+
+  /*TEN COLUMNS STARTS HERE*/
+
+.small-paragraph{
+      background:;
+      padding:40px;
+}
+
+.newsletter{
+    padding: 20px;
+    background: orange;
+}
+
+.newsletter h2{
+    float: left;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.newsletter form{
+    float: right;
+    padding: 20px;
+}
+.newsletter input[type=email]{
+    padding: 4px;
+	height:30px;
+    width:250px;
+}   
+.button-1{
+    height: 35px;
+	background: #ff6900;
+	border: 0;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+
+
+/* NEWSLETTER ENDS HERE */
+
+
+.footer-section{
+    padding-top: 15px;
+}
+
+.footer-column{
+    float: left;
+    color: white;
+}
+
+
+.footer-image{
+    background-image:url("../../assets/images/footer-image1.jpg");
+	background-size: cover;
+	height: 600px;
+	background-color: #ff6900;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+
+/* FOOTER 1 STARTS HERE */
+
+.footer-image{
+    line-height:1.5; 
+}
+
+.around-web{
+
+}
+
+.around-web li{
+    list-style: none;
+    text-align: left;
+    margin-left: -40px;
+}
+
+/*////////////ABOUT, CONTACT, PORTFOLIO, PAGE STYLE//////////////*/
+
+.about h2{
+    padding-top:30px;
+    padding-left: 10px;
+    color: #ff6900;
+    font-weight: ;
+}
+
+.about{
+    
+    height: 600px;
+    margin-top: 40px;
+    padding-bottom:30px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.about-p{
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-content{
+    padding-bottom: 15px;
+}
+
+/*//////////CONTACT BUTTON////////*/
+.btn-contact{
+    height: 35px;
+	background: #e8491d;
+	border: 0;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+    color: #ffffff;
+    border-radius: 0;
+
+}
+.btn-contact:hover{
+    background-color:  #e8491d;
+}
+
+
+
+/*///////////// PORTFOLIO STYLES////////////////////////*/
+
+.about-port{
+    background-color: #D3D3D3;
+    height: 700px;
+    margin-top: 40px;
+    padding-bottom:30px;
+    margin-bottom: 40px;
+}
+
+.project-port{
+    background-color: #D3D3D3;
+    height: 950px;
+    margin-top: 40px;
+    padding-bottom:30px;
+    margin-bottom: 40px;
+}
+
+
+.about-port h2{
+    padding-top:30px;
+    padding-left: 10px;
+    color: #ff6900;
+    font-weight: ;
+}
+.project-port h2{
+    padding-top:30px;
+    padding-left: 10px;
+    color: #ff6900;
+    font-weight: ;
+}
+
+
+.description{
+    background-color: #ff6900;
+    width:200px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+.description-project{
+    background-color: #ff6900;
+    width:500px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+.column1{
+    padding-right: 2px;
+}
+
+/*  PROJECTS */
+
+.repository{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-title{
+    float: left;
+}
+
+.project{
+    
+    margin: auto;
+}
+
+.port-image{
+    float: none;
+    display: block;
+}
+
+.grey-box{
+
+}
+/*media query 767*/
+
+@media only screen and (max-width: 767px) {
+    .about-port{
+    height:1100px; 
+    background-color: #D3D3D3;
+    }
+    .column1{
+    padding-left: 20px;
+    margin-left: 140px;
+    }
+    .about{
+        height: 725px;
+    }
+}
