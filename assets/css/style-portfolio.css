@@ -215,7 +215,7 @@
     padding-top:30px;
     padding-left: 10px;
     color: #ff6900;
-    font-weight: ;
+    font-weight: 
 }
 
 .about-content{
@@ -318,10 +318,10 @@
 /*///////////// PORTFOLIO STYLES////////////////////////*/
 
 .about-port{
-    background-color:;
+    background-color:
     min-height: 700px;
     margin-top: 40px;
-    
+    padding-bottom:30px;
     margin-bottom: 40px;
 }
 
@@ -435,7 +435,7 @@ a{
    
 }
 .art-illustration-design a:hover{
-    color:white;
+    color:inherit;
     text-decoration: none
     
 }
