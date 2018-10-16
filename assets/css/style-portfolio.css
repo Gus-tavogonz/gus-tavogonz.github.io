@@ -491,6 +491,9 @@ a{
         margin:auto;
     }
    
+    .click{
+        font-size: 25px;
+    }
     .column1{
     padding-left: 20px;
     margin-left: 140px;
