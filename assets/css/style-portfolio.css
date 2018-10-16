@@ -489,20 +489,28 @@ a{
     }
     body{
         margin:auto;
+        
     }
    
     .click{
         font-size: 25px;
+        padding: 2px;
+        margin: auto;
     }
     .column1{
     padding-left: 20px;
     margin-left: 140px;
+
     }
     .about{
         height: 800px;
     }
-    .filtr-item{
+    .cell-container{
         height: auto;
+        align-content: center;
+        margin:auto;
+       width: 50%;
+       margin-left: 6px;
 
     }
 }
