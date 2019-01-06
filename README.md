@@ -1,4 +1,4 @@
-#gus-tavogonz
+Gus-tavogonz | Graphics+Development
 
 This is my portfolio website. The idea was to showcase the differente projects I've been part of, and to present them in a way that's easy to navigate.
 
