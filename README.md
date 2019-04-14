@@ -13,7 +13,7 @@ Chocolat is the best lightbox I found, is easy to use and customizable.
 Animate on Scroll: https://michalsnik.github.io/aos/
 To create transitions, fade-ins and fade-outs on scroll
 
-HTML, JavaScript and Html
+HTML, JavaScript and CSS
 
 Appreciate any advice or input.
 
