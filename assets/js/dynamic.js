@@ -103,6 +103,8 @@ function showWeb(){
 
     var videoSrc;  
     $('.video-btn').click(function() {
+       
+
         videoSrc = $(this).data( "src" );
         console.log(videoSrc);
         $("#video").attr("src",videoSrc)
